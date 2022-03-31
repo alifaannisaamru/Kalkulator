@@ -1,0 +1,70 @@
+.calculator {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    width: 400px;
+    background-color: rgb(55, 169, 131);
+    border-radius: 10px;
+}
+
+/* settingan untuk screen kalkulator*/
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+background-color: rgb(227, 108, 84);
+color: white;
+text-align: right;
+font-size: 35px;
+border: none;
+padding: 0 20px;
+margin-bottom: 20px;
+box-sizing: border-box;
+border-radius: 10px;
+
+}
+
+/* modif untuk tombol kalkulator*/
+.calculator-key {
+    width: 100%;
+    
+}
+
+.row{
+    display: flex;
+}
+
+button{
+    min-height: 80px;
+    background-color: rgb(139, 107, 30);
+    font-size: 32px;    
+    border: 1px solid rgb(255, 249, 249);
+    padding: 5px 5px;
+    margin: 3px 3px;
+    color: white;
+    width: 25%;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    
+}
+.all-clear, .zero-btn{
+    width: 50%;
+}
+
+.all-clear, .equal-sign {
+    background-color: darkorange;
+}
+
+.operator {
+    background-color: rgb(78, 76, 76);
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: rgb(48, 45, 41);
+}
