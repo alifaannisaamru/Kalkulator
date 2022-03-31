@@ -1,3 +1,6 @@
+body{
+    background-color: honeydew;
+}
 .calculator {
     text-align: center;
     margin: auto;
